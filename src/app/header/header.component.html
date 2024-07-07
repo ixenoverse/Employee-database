@@ -1,0 +1,28 @@
+<!-- <nav class="navbar navbar-expand navbar-dark bg-dark px-1">
+    <div class="side-nav-button p-2 me-3 text-light">
+        <i class="fa-solid fa-bars"></i>
+    </div>
+
+    <a class="navbar-brand px-4" href="#">Welcome, KJ</a>
+
+    <div class="ml-auto">
+        <button  class="btn btn-warning mx-2 admin" *ngIf="isAdmin">Admin</button>
+        <button routerLink="/login" class="btn btn-danger mx-2">Logout</button>
+      </div>
+</nav> -->
+
+<nav class="navbar navbar-expand bg-body-tertiary bg-dark text-light">
+    <div class="container-fluid">
+        <div >
+            <i class="fa-solid fa-bars p-2 me-3 side-nav-button" (click)="SideNavToggle()"></i>
+            <a class="navbar-brand text-light" >Welcome, {{name}}</a>
+        </div>
+      
+
+      <div>
+        <button  class="btn btn-warning mx-2 admin" *ngIf="isAdmin">Admin</button>
+        <button routerLink="/login" class="btn btn-danger mx-2">Logout</button>
+      </div>
+      
+    </div>
+  </nav>

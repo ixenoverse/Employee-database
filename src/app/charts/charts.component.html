@@ -1,0 +1,86 @@
+<div class="container-fluid g-0">
+    <app-header (sideNavToggled)="sideNavStatus = $event"></app-header>
+  
+    <main>
+      <app-sidenav
+        [sideNavStatus]="sideNavStatus"
+        [ngClass]="{ 'app-side-nav-open': sideNavStatus }"
+        class="black-border"
+      ></app-sidenav>
+  
+      <div
+        class="display-area p-3"
+        [ngClass]="{ 'display-area-shirnk': sideNavStatus }"
+      >
+        <!-- <p class="fs-1 fw-bold fst-italic">Main Display area</p> -->
+        
+        <div class="container mx-5">
+            <div class="row text-center">
+                <!-- <div class="col-lg-6">
+                    <h2>Pie Chart</h2>
+                    <canvas id="piechart"></canvas>
+                </div> -->
+                <div class="col-sm-5">
+                    <h2>Employee Age Pie</h2>
+                    <canvas #canvasImg id="agechart"></canvas>
+                    <button (click)="downloadPDF()" class="btn btn-primary my-2 mx-2">PDF Version</button>
+                </div>
+                <div class="col-lg-5 mx-3">
+                    <h2>Employee Age Bar</h2>
+                    <canvas id="agechart2"></canvas>
+                    <button (click)="downloadPDF2()" class="btn btn-primary my-2 mx-2">PDF Version</button>
+                </div>
+                <div class="col-sm-1">
+                    <button (click)="downloadPDF_age()" class="btn btn-success my-2 mx-2">PDF Version</button>
+                </div>
+            </div>
+
+            <div class="row text-center my-5">
+                <div class="col-lg-5">
+                    <h2>Employee Roles Pie</h2>
+                    <canvas id="roleschart2"></canvas>
+                    <button (click)="downloadPDF3()" class="btn btn-primary my-2 mx-2">PDF Version</button>
+                </div>
+                <!-- <div class="col-lg-1">
+                </div> -->
+                <div class="col-lg-5 mx-3">
+                    <h2>Employee Roles Bar</h2>
+                    <canvas id="roleschart"></canvas>
+                    <button (click)="downloadPDF4()" class="btn btn-primary my-2 mx-2">PDF Version</button>
+                </div>
+                <div class="col-sm-1">
+                    <button (click)="downloadPDF_role()" class="btn btn-success my-2 mx-2">PDF Version</button>
+                </div>
+                <!-- <div class="col-lg-4">
+                    <h2>Employee Roles Line</h2>
+                    <canvas id="roleschart3"></canvas>
+                </div>   -->
+            </div>
+
+            <!-- <div class="row text-center my-5">
+                <div class="col-lg-6">
+                    <h2>Employee Roles polar area</h2>
+                    <canvas id="roleschart4"></canvas>
+                </div>
+                <div class="col-lg-6">
+                    <h2>Employee Roles radar</h2>
+                    <canvas id="roleschart5"></canvas>
+                </div>
+            </div>
+
+            <div class="row text-center my-5">
+                <div class="col-lg-6">
+                    <h2>Some Bubble chart</h2>
+                    <canvas id="roleschart6"></canvas>
+                </div>
+            </div> -->
+
+            <div>
+                <canvas id="mybarChart"></canvas>
+            </div>
+        </div>
+        
+      </div>
+    </main>
+  </div>
+  

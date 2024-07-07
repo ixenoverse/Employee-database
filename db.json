@@ -1,0 +1,206 @@
+{
+  "signupUsers": [
+    {
+      "fname": "Kangkan Jyoti",
+      "lname": "Ray",
+      "email": "kangkan@gmail.com",
+      "password": "123",
+      "id": 1
+    },
+    {
+      "fname": "Sam",
+      "lname": "Brown",
+      "email": "sam@gmail.com",
+      "password": "345",
+      "id": 2
+    },
+    {
+      "fname": "Bhaskar",
+      "lname": "Acharya",
+      "email": "bhaskar@yahoo.com",
+      "password": "678",
+      "id": 3
+    },
+    {
+      "fname": "Ram",
+      "lname": "Sharma",
+      "email": "ram@gmail.com",
+      "password": "234",
+      "password2": "234",
+      "id": 4
+    },
+    {
+      "fname": "Gorgc",
+      "lname": "Stefanovski",
+      "email": "gorgc@teambald.com",
+      "password": "987",
+      "password2": "987",
+      "id": 5
+    }
+  ],
+  "Users": [
+    {
+      "id": 1,
+      "empno": "13581976",
+      "empname": "Thangraj S",
+      "age": "31",
+      "salary": "12395.6698",
+      "role": "Senior Associate",
+      "city": "Mumbai",
+      "pincode": 95340,
+      "managerId": 13582423
+    },
+    {
+      "id": 2,
+      "empno": "13581865",
+      "empname": "Rahul Ghali",
+      "age": "33",
+      "salary": "12395.6698",
+      "role": "Team Lead",
+      "city": "Delhi",
+      "pincode": 953381,
+      "managerId": 13582423
+    },
+    {
+      "id": 3,
+      "empno": "13584957",
+      "empname": "Sindhu Nambiar",
+      "age": "35",
+      "salary": "34343.9967",
+      "role": "Team Lead",
+      "city": "Kolkata",
+      "pincode": 583386,
+      "managerId": 13582423
+    },
+    {
+      "id": 4,
+      "empno": "13582647",
+      "empname": "Yadavi N Swamy",
+      "age": "45",
+      "salary": "23232.4456",
+      "role": "Manager",
+      "city": "Coimbatore",
+      "pincode": 183387,
+      "managerId": 13582647
+    },
+    {
+      "id": 5,
+      "empno": "13588374",
+      "empname": "Varun Raghav",
+      "age": "29",
+      "salary": "25356.8832",
+      "role": "Senior Associate",
+      "city": "Gurgaon",
+      "pincode": 383382,
+      "managerId": 13582647
+    },
+    {
+      "id": 6,
+      "empno": "13589272",
+      "empname": "Siddharth Ray",
+      "age": "23",
+      "salary": "23311.5455",
+      "role": "Junior Associate",
+      "city": "Hyderabad",
+      "pincode": 983380,
+      "managerId": 13582423
+    },
+    {
+      "id": 7,
+      "empno": "13588331",
+      "empname": "Bhagya",
+      "age": "37",
+      "salary": "34343.9967",
+      "role": "Team Lead",
+      "city": "Bangalore",
+      "pincode": 493387,
+      "managerId": 13582647
+    },
+    {
+      "id": 8,
+      "empno": "13582423",
+      "empname": "Snigdha",
+      "age": "42",
+      "salary": "23232.4456",
+      "role": "Manager",
+      "city": "Chandigarh",
+      "pincode": 163390,
+      "managerId": 13582423
+    },
+    {
+      "id": 9,
+      "empno": "13587844",
+      "empname": "Karthik",
+      "age": "25",
+      "salary": "25356.8832",
+      "role": "Senior Associate",
+      "city": "Chennai",
+      "pincode": 593334,
+      "managerId": 13582647
+    },
+    {
+      "id": 10,
+      "empno": "13585016",
+      "empname": "Venkat",
+      "age": "26",
+      "salary": "23311.5455",
+      "role": "Junior Associate",
+      "city": "Ahmedabad",
+      "pincode": 843361,
+      "managerId": 13582647
+    }
+  ],
+  "Peoples": [
+    {
+      "id": 2,
+      "empno": "124",
+      "empname": "Sam Harris",
+      "age": "35",
+      "salary": "45000"
+    },
+    {
+      "id": 3,
+      "empno": "123",
+      "empname": "Kangkan",
+      "age": "24",
+      "salary": "28000"
+    }
+  ],
+  "sales": [
+    {
+      "year": 2015,
+      "amount": 5000,
+      "colorcode": "green"
+    },
+    {
+      "year": 2016,
+      "amount": 6000,
+      "colorcode": "yellow"
+    },
+    {
+      "year": 2017,
+      "amount": 2000,
+      "colorcode": "red"
+    },
+    {
+      "year": 2018,
+      "amount": 6500,
+      "colorcode": "blue"
+    },
+    {
+      "year": 2019,
+      "amount": 4000,
+      "colorcode": "grey"
+    },
+    {
+      "year": 2020,
+      "amount": 7000,
+      "colorcode": "orange"
+    },
+    {
+      "year": 2021,
+      "amount": 17000,
+      "colorcode": "pink"
+    }
+  ]
+}

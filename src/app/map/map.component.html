@@ -1,0 +1,25 @@
+<div class="container-fluid g-0">
+    <app-header (sideNavToggled)="sideNavStatus = $event"></app-header>
+  
+    <main>
+      <app-sidenav
+        [sideNavStatus]="sideNavStatus"
+        [ngClass]="{ 'app-side-nav-open': sideNavStatus }"
+        class="black-border"
+      ></app-sidenav>
+  
+      <div
+        class="display-area p-3"
+        [ngClass]="{ 'display-area-shirnk': sideNavStatus }"
+      >
+        <!-- <p class="fs-1 fw-bold fst-italic">Main Display area</p> -->
+        
+        <div class="col-sm-5">
+            <h2>Employee Age Pie</h2>
+            <canvas #canvasImg id="agechart"></canvas>
+        </div>
+       
+      </div>
+    </main>
+  </div>
+  

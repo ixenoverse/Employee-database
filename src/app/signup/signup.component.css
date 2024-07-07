@@ -1,0 +1,32 @@
+.card{
+    border: none;
+    width: 500px;
+    padding: 40px;
+    background-color: #f4eee0;
+
+    /* Centering the div */
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    font-family: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans","Liberation Sans",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: 1rem;
+}
+
+a{
+    cursor: pointer;
+}
+
+h1{
+    font-size: calc(1.375rem + 1.5vw);
+}
+
+h6{
+    font-size: 1.25rem;
+    font-weight: lighter;
+}
+
+input.ng-invalid.ng-touched{
+    border: red 1px solid;
+}

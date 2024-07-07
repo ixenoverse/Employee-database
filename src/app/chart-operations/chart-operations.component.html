@@ -1,0 +1,43 @@
+<div class="container-fluid g-0">
+    <app-header (sideNavToggled)="sideNavStatus = $event"></app-header>
+  
+    <main>
+      <app-sidenav
+        [sideNavStatus]="sideNavStatus"
+        [ngClass]="{ 'app-side-nav-open': sideNavStatus }"
+        class="black-border"
+      ></app-sidenav>
+  
+      <div
+        class="display-area p-3"
+        [ngClass]="{ 'display-area-shirnk': sideNavStatus }"
+      >
+        <!-- <p class="fs-1 fw-bold fst-italic">Main Display area</p> -->
+
+        <div class="row text-center my-5">
+            <div class="col-lg-1">
+            </div>
+            
+            <div class="col-sm-3 mx-3">
+                <div style="padding-top: 150px;">
+                    <input name="mid" [(ngModel)]="mid" class="form-control me-2" type="search" placeholder="Enter manger Id..."><br>
+                    <button class="btn btn-outline-success" type="submit" (click)="search()">Search</button>
+                </div>
+            </div>
+
+            <div class="col-lg-1">
+            </div>
+            
+
+            <div class="col-sm-4">
+                <h2>Employee Roles Pie</h2>
+                <canvas id="roleschart3"></canvas>
+            </div>
+        </div>
+
+        
+        
+      </div>
+    </main>
+  </div>
+  
